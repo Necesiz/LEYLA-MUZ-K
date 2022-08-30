@@ -14,9 +14,9 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`Reklam yayını başlıyor...`")
+        wtf = await message.reply("`Reklam yayını başlayır...`")
         if not message.reply_to_message:
-            await wtf.edit("**__Lütfen mesajı bekleyiniz...__**")
+            await wtf.edit("**__Xaiş mesajı gözləyin...__**")
             return
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
