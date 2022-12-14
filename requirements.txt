@@ -2,11 +2,13 @@ pyrogram==1.3.6
 py-tgcalls==0.9.0
 TgCrypto
 git+https://github.com/Sorrybabe/downloader
+youtube_dl
 python-dotenv
 youtube_search_python 
 requests
 aiohttp
 aiofiles
+youtube_search
 asyncio
 python-arq
 search_engine_parser
@@ -14,5 +16,3 @@ wget
 ffmpeg-python
 Pillow
 ujson
-youtube_dl
-youtube_search
