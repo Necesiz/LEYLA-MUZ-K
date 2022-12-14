@@ -3,13 +3,11 @@ py-tgcalls==0.9.0
 TgCrypto
 git+https://github.com/Sorrybabe/downloader
 python-dotenv
-youtube_dl
 youtube_search_python 
 requests
 aiohttp
 aiofiles
 asyncio
-youtube_search
 python-arq
 search_engine_parser
 wget 
